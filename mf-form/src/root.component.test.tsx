@@ -10,7 +10,7 @@ import Root from "./root.component";
 // });
 
 describe("testing App.js", () => {
-	test("2 + 2 is 4", () => {
-		expect(2 + 2).toBe(4);
-	});
+  test("2 + 2 is 4", () => {
+    expect(2 + 2).toBe(4);
+  });
 });

@@ -1,11 +1,11 @@
 {
-	"extends": "ts-config-single-spa",
-	"compilerOptions": {
-		"jsx": "react-jsx",
-		"declarationDir": "dist",
-		"typeRoots": ["./node_modules/@types", "./src/types"]
-	},
-	"files": ["src/fgaviria-reactList.tsx"],
-	"include": ["src/**/*"],
-	"exclude": ["src/**/*.test*"]
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declarationDir": "dist",
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },
+  "files": ["src/fgaviria-reactList.tsx"],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
 }
