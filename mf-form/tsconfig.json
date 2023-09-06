@@ -1,0 +1,12 @@
+{
+	"extends": "ts-config-single-spa",
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"declarationDir": "dist",
+		"typeRoots": ["./node_modules/@types", "./src/types"]
+	},
+
+	"files": ["src/fgaviria-Form.tsx"],
+	"include": ["src/**/*"],
+	"exclude": ["src/**/*.test*"]
+}
